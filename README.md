@@ -81,3 +81,18 @@ componentDidMount () {
   * animationType: determine the type of animation. enum(animationType.none, animationType.fade, animationType.scale)
   * duration: determine the duration of animation
   * delay: determine the delay of animation
+  
+  
+  
+## Contribution
+
+- [@tsepeti](mailto:yazilim@tatilsepeti.com)
+- [@yasaricli](mailto:yasaricli@gmail.com) *The main author.*
+
+  **PRs** are `welcome !`
+
+## Questions
+
+Feel free to [contact me](mailto:yasaricli@gmail.com) or [create an issue](https://github.com/tsepeti/rnative-splash/issues/new)
+
+> made with ♥
