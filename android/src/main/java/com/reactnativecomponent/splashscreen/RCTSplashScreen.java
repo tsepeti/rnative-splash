@@ -1,4 +1,4 @@
-package com.reactnativecomponent.splashscreen;
+package com.tsepeti.splashscreen;
 
 import android.app.Activity;
 import android.app.Dialog;

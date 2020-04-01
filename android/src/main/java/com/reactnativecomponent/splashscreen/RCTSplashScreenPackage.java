@@ -1,4 +1,4 @@
-package com.reactnativecomponent.splashscreen;
+package com.tsepeti.splashscreen;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

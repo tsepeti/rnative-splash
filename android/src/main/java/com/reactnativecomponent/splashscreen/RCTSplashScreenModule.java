@@ -1,4 +1,4 @@
-package com.reactnativecomponent.splashscreen;
+package com.tsepeti.splashscreen;
 
 import android.os.Handler;
 import android.support.annotation.Nullable;
