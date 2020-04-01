@@ -1,6 +1,6 @@
-A smart splash screen for React Native apps, written in JS, oc and java for cross-platform support.
+A smart **splash screen** for `React Native` applications for cross-platform support.
 
-It works on iOS and Android.
+It works on iOS and Android ♥
 
 ## Getting started
 
@@ -110,5 +110,3 @@ componentDidMount () {
 ## Questions
 
 Feel free to [contact me](mailto:yasaricli@gmail.com) or [create an issue](https://github.com/tsepeti/rnative-splash/issues/new)
-
-> made with ♥
