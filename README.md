@@ -13,8 +13,8 @@
 
 ## Contribution
 
-- [@tsepeti](mailto:yazilim@tatilsepeti.com)
-- [@yasaricli](mailto:yasaricli@gmail.com) *The main author.*
+- [@tsepeti](https://www.github.com/tsepeti)
+- [@yasaricli](https://www.github.com/yasaricli) *The main author.*
 
 **PRs** are `Welcome !`
 
