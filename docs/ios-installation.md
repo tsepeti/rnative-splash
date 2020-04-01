@@ -57,4 +57,4 @@ Let's move the **SplashScreenResource** folder under the `ios/` folder.
 
 Drag **SplashScreenResource** folder to your project if you want change image, replace **splash.png** or add a image with your custom name.
 
-<img align="left" src="images/ios.gif" width="40%" />
+<img align="left" src="images/ios.gif" />
