@@ -37,3 +37,5 @@ In `android/app/**/styles.xml`
 </style>
 ...
 ```
+
+Add your own `drawable/splash.png` to **android/app/src/main/res/**, it is recommended to add `drawable-?dpi` folders that you need.
