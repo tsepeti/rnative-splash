@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="screens/KaptureIos.gif" width="35%">
+</p>
+
 > A smart **splash screen** for `React Native` applications for cross-platform support.
 
 > It works on iOS and Android ♥
