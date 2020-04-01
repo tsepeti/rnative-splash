@@ -37,3 +37,25 @@ rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0
 
 return YES
 ```
+
+## Xcode Steps
+
+The following changes are required for **xcode**.
+
+### Step 1
+
+Delete your project's `LaunchScreen.xib`
+
+<img src="images/ios-1.png" />
+
+### Step 2
+
+Let's move the **SplashScreenResource** folder under the `ios/` folder.
+
+    
+    cp -R ./node_modules/rnative-splash/ios/SplashScreenResource ios/
+
+Drag **SplashScreenResource** folder to your project if you want change image, replace **splash.png** or add a image with your custom name.
+
+<img src="images/ios-2.png" />
+<img src="images/ios-3.png" />
