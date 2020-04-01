@@ -1,6 +1,6 @@
 {
   "name": "rnative-splash",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A smart splash screen for React Native",
   "main": "index.js",
   "repository": {
