@@ -21,7 +21,9 @@ If using **cocoapods** in the `ios/` directory run
 
 ## Installation (Ios)
 
-In `AppDelegate.m`
+This line is `[RCTSplashScreen open: rootView withImageNamed: @" splash "];` Add before the `rootView.backgroundColor` line.
+
+In `AppDelegate.m` 
 
 ```objc
 
@@ -58,3 +60,11 @@ Let's move the **SplashScreenResource** folder under the `ios/` folder.
 Drag **SplashScreenResource** folder to your project if you want change image, replace **splash.png** or add a image with your custom name.
 
 <img align="left" src="images/ios.gif" />
+
+Let's run again later.
+
+    yarn ios
+
+it's that simple 🎉🎉🎉🎉🎉🎉🎉
+
+You can continue to [Usage](usage.md) it here.
