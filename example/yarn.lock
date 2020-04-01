@@ -5637,10 +5637,10 @@ rimraf@~2.2.6:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
 
-rnative-splash@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/rnative-splash/-/rnative-splash-0.0.2.tgz#88fa7e20459cc0d421c415f3c55f2569e2ffa6eb"
-  integrity sha512-tOrz9FzHofHDiIRkDfs1jXQaZKd3US4wbkl4A3rbJZwl6Jdd7oOlfhs35ujY0rKNAFD6VMHMeWjFXPfbSFrIMw==
+rnative-splash@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/rnative-splash/-/rnative-splash-0.0.3.tgz#43dbbe41cb45b47f4b329d65915536a6971e897c"
+  integrity sha512-gq7ZLgYddGkphwXv/HfmfFDcFJWxyfZQZhnPRAhVCqkA8N10n6pxDBdYzIxRmH9TxibrB8yIN1uXLzfUacRcSg==
 
 rsvp@^4.8.4:
   version "4.8.5"

@@ -5,8 +5,7 @@
  * @format
  * @flow strict-local
  */
-
-import React from 'react';
+import React, { Component } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -24,9 +23,27 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
-  return (
-    <>
+
+// Import SplashScreen
+import Splash from 'rnative-splash';
+
+class App extends Component {
+  componentDidMount() {
+  
+    // Close splash screen
+    
+    
+    Splash.close({
+      animationType: Splash.animationType.scale,
+      duration: 850,
+      delay: 500,
+    });
+    
+  }
+  
+  render() {
+    return (
+      <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
@@ -69,8 +86,10 @@ const App: () => React$Node = () => {
         </ScrollView>
       </SafeAreaView>
     </>
-  );
-};
+    )
+  }
+}
+
 
 const styles = StyleSheet.create({
   scrollView: {
