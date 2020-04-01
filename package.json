@@ -1,0 +1,30 @@
+{
+  "name": "rnative-smart-splash-screen",
+  "version": "0.0.1",
+  "description": "A smart splash screen for React Native apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsepeti/rnative-smart-splash-screen.git"
+  },
+  "keywords": [
+    "react-native",
+    "smart",
+    "splash",
+    "screen",
+    "splashscreen",
+    "component"
+  ],
+  "author": "HISAME SHIZUMARU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsepeti/rnative-smart-splash-screen/issues"
+  },
+  "homepage": "https://github.com/tsepeti/rnative-smart-splash-screen#readme",
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  }
+}
