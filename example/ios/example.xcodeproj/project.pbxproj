@@ -17,8 +17,8 @@
 		2DCD954D1E0B4F2C00145EB5 /* exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* exampleTests.m */; };
 		3F58C1F4F563D0CCE9A649D2 /* libPods-example-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEF0151AED84695250C6EE8 /* libPods-example-tvOS.a */; };
 		6E446CB64B7A00286B967696 /* libPods-example-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E302754DB90762F57E5FC397 /* libPods-example-tvOSTests.a */; };
-		817DC9BC2434E23D00D85971 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817DC9BA2434E23D00D85971 /* LaunchScreen.xib */; };
-		817DC9BD2434E23D00D85971 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 817DC9BB2434E23D00D85971 /* splash.png */; };
+		81E392432434E74200006E3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E392412434E74200006E3B /* LaunchScreen.xib */; };
+		81E392442434E74200006E3B /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 81E392422434E74200006E3B /* splash.png */; };
 		EC82E6B7A80AEEE456BE3EB0 /* libPods-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3DBE6C3FA5B53D209E99C6 /* libPods-example.a */; };
 		FAC776EE175B6EAED1598020 /* libPods-example-exampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0012A1C9175B7DF7D957F22 /* libPods-example-exampleTests.a */; };
 /* End PBXBuildFile section */
@@ -59,8 +59,8 @@
 		59109623AB82FB268D81F631 /* Pods-example-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-example-tvOS/Pods-example-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		635B99968691DAE166E66991 /* Pods-example-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-exampleTests.release.xcconfig"; path = "Target Support Files/Pods-example-exampleTests/Pods-example-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7EEF0151AED84695250C6EE8 /* libPods-example-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-example-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		817DC9BA2434E23D00D85971 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		817DC9BB2434E23D00D85971 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		81E392412434E74200006E3B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		81E392422434E74200006E3B /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		8405FDF7E41A06A4D5BF70C4 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.release.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.release.xcconfig"; sourceTree = "<group>"; };
 		8FCFC7EB670C38771534F9F1 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.debug.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
 		A0A1CA7819AE1F75EF547848 /* Pods-example-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-tvOS.release.xcconfig"; path = "Target Support Files/Pods-example-tvOS/Pods-example-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -165,11 +165,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		817DC9B92434E23D00D85971 /* SplashScreenResource */ = {
+		81E392402434E74200006E3B /* SplashScreenResource */ = {
 			isa = PBXGroup;
 			children = (
-				817DC9BA2434E23D00D85971 /* LaunchScreen.xib */,
-				817DC9BB2434E23D00D85971 /* splash.png */,
+				81E392412434E74200006E3B /* LaunchScreen.xib */,
+				81E392422434E74200006E3B /* splash.png */,
 			);
 			path = SplashScreenResource;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				817DC9B92434E23D00D85971 /* SplashScreenResource */,
+				81E392402434E74200006E3B /* SplashScreenResource */,
 				13B07FAE1A68108700A75B9A /* example */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* exampleTests */,
@@ -348,8 +348,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				817DC9BC2434E23D00D85971 /* LaunchScreen.xib in Resources */,
-				817DC9BD2434E23D00D85971 /* splash.png in Resources */,
+				81E392432434E74200006E3B /* LaunchScreen.xib in Resources */,
+				81E392442434E74200006E3B /* splash.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
