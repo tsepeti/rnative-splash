@@ -4,6 +4,7 @@ Since the **splash** is opened when the application is opened, you can only **cl
 
 ```js
 import React, { Component } from 'react';
+import { View, Text } from 'react-native';
 
 // Import SplashScreen
 import Splash from 'rnative-splash';
@@ -15,7 +16,7 @@ class App extends Component {
     
     
     Splash.close({
-      animationType: SplashScreen.animationType.scale,
+      animationType: Splash.animationType.scale,
       duration: 850,
       delay: 500,
     });
