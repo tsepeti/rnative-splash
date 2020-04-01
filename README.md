@@ -89,7 +89,8 @@ componentDidMount () {
 - [@tsepeti](mailto:yazilim@tatilsepeti.com)
 - [@yasaricli](mailto:yasaricli@gmail.com) *The main author.*
 
-  **PRs** are `welcome !`
+**PRs** are `welcome !`
+
 
 ## Questions
 
