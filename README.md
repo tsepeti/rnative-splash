@@ -31,7 +31,11 @@ In `AppDelegate.m`
 
 ...
 #import "RCTSplashScreen.h" //import interface
+...
 
+[RCTSplashScreen open:rootView withImageNamed:@"splash"]; // <-- activate splash, imagename from LaunchScreen.xib
+
+return YES
 ```
 
 ## Installation (Android)
