@@ -15,7 +15,8 @@ in `MainActivity.java`
 ```java
 
 ...
-import com.tsepeti.splashscreen.RCTSplashScreen; // import RCTSplashScreen
+import android.os.Bundle; // <-- add bundle import
+import com.tsepeti.splashscreen.RCTSplashScreen; // <-- import RCTSplashScreen
 ...
 
 @Override
