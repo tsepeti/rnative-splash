@@ -1,11 +1,11 @@
 {
-  "name": "rnative-smart-splash-screen",
+  "name": "rnative-splash",
   "version": "0.0.1",
   "description": "A smart splash screen for React Native",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsepeti/rnative-smart-splash-screen.git"
+    "url": "git+https://github.com/tsepeti/rnative-splash.git"
   },
   "keywords": [
     "react-native",
@@ -18,9 +18,9 @@
   "author": "Yasar icli <yasaricli@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsepeti/rnative-smart-splash-screen/issues"
+    "url": "https://github.com/tsepeti/rnative-splash/issues"
   },
-  "homepage": "https://github.com/tsepeti/rnative-smart-splash-screen#readme",
+  "homepage": "https://github.com/tsepeti/rnative-splash#readme",
   "peerDependencies": {
     "react-native": ">=0.40.0"
   }

@@ -1,17 +1,17 @@
-# rnative-smart-splash-screen
+# rnative-splash
 
 A smart splash screen for React Native apps, written in JS, oc and java for cross-platform support.
 It works on iOS and Android.
 
 ## Preview
 
-![rnative-smart-splash-screen-ios-preview][1]
-![rnative-smart-splash-screen-android-preview][2]
+![rnative-splash-ios-preview][1]
+![rnative-splash-android-preview][2]
 
 ## Installation
 
 ```
-yarn add rnative-smart-splash-screen
+yarn add rnative-splash
 ```
 
 ## Installation (iOS)
@@ -22,7 +22,7 @@ yarn add rnative-smart-splash-screen
 
 ```js
 ...
-import SplashScreen from 'rnative-smart-splash-screen'
+import SplashScreen from 'rnative-splash'
 ...
 componentDidMount () {
      SplashScreen.close({

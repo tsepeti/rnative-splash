@@ -1,6 +1,6 @@
 /*
  * A smart splash screen for react-native apps
- * https://github.com/tsepeti/rnative-smart-splash-screen/
+ * https://github.com/tsepeti/rnative-splash/
  * Released under the MIT license
  * Copyright (c) 2016 tsepeti <moonsunfall@aliyun.com>
  */
