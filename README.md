@@ -11,6 +11,10 @@
 * [Installation (Ios)](docs/ios-installation.md)
 * [Installation (Android)](docs/android-installation.md)
 
+## Why not `react-native-smart-splash-screen` ?
+
+We waited for the [react-native-smart-splash-screen](https://github.com/react-native-component/react-native-smart-splash-screen) package to be updated. `Unfortunately`, it was not updated and remained outdated. **That's why we created this repo**.
+
 ## Contribution
 
 - [@tsepeti](mailto:yazilim@tatilsepeti.com)
