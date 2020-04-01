@@ -45,7 +45,7 @@ in `MainActivity.java`
 ```java
 
 ...
-import com.reactnativecomponent.splashscreen.RCTSplashScreen; // import RCTSplashScreen
+import com.tsepeti.splashscreen.RCTSplashScreen; // import RCTSplashScreen
 ...
 
 @Override
