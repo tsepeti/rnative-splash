@@ -96,9 +96,7 @@ componentDidMount () {
   * animationType: determine the type of animation. enum(animationType.none, animationType.fade, animationType.scale)
   * duration: determine the duration of animation
   * delay: determine the delay of animation
-  
-  
-  
+
 ## Contribution
 
 - [@tsepeti](mailto:yazilim@tatilsepeti.com)
