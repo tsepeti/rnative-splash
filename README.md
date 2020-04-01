@@ -2,8 +2,7 @@ A smart splash screen for React Native apps, written in JS, oc and java for cros
 
 It works on iOS and Android.
 
-## Installation
-
+## Add rnative-splash to your dependencies
 
     yarn add rnative-splash
     
@@ -25,14 +24,16 @@ React Native modules that include native **Objective-C, Swift, Java, or Kotlin**
 **NOTE:** *If you ever need to uninstall **rnative-splash**, run `react-native unlink rnative-splash` to **unlink** it.*
 
 
+## Installation (iOS)
+
 If using **cocoapods** in the `ios/` directory run
 
     pod install
     
-    
-## Installation (iOS)
-
+For iOS, while you can manually link the old way using [react-native own tutorial](https://reactnative.dev/docs/linking-libraries-ios), we find it easier to use cocoapods.
+  
 ## Installation (Android)
+
 
 ## Usage
 
