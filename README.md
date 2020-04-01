@@ -1,6 +1,6 @@
-A smart **splash screen** for `React Native` applications for cross-platform support.
+> A smart **splash screen** for `React Native` applications for cross-platform support.
 
-It works on iOS and Android ♥
+> It works on iOS and Android ♥
 
 ## Getting started
 
