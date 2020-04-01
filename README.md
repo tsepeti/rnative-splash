@@ -14,26 +14,27 @@ For **npm** use
 
     npm install rnative-splash --save
 
-## Link native dependencies
-
-From *react-native* **0.60.X** autolinking will take care of the link step but don't forget to run `pod install`
-
-### Using React Native >= 0.60
 
 If using **cocoapods** in the `ios/` directory run
 
+    cd ios
     pod install
-
-
-    react-native link rnative-splash 
 
 **NOTE:** *If you ever need to uninstall **rnative-splash**, run `react-native unlink rnative-splash` to **unlink** it.*
 
 
 ## Installation (iOS)
-  
-## Installation (Android)
 
+In `AppDelegate.m`
+
+```objc
+
+...
+#import "RCTSplashScreen.h" //import interface
+
+```
+
+## Installation (Android)
 
 ## Usage
 
