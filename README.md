@@ -1,19 +1,35 @@
-# rnative-splash
-
 A smart splash screen for React Native apps, written in JS, oc and java for cross-platform support.
+
 It works on iOS and Android.
-
-## Preview
-
-![rnative-splash-ios-preview][1]
-![rnative-splash-android-preview][2]
 
 ## Installation
 
-```
-yarn add rnative-splash
-```
 
+    yarn add rnative-splash
+    
+__(or)__
+
+For **npm** use
+
+    npm install rnative-splash --save
+
+## Link native dependencies
+
+From *react-native* **0.60.X** autolinking will take care of the link step but don't forget to run `pod install`
+
+React Native modules that include native **Objective-C, Swift, Java, or Kotlin** code have to be `"linked"` so that the compiler knows to include them in the app.
+
+
+    react-native link rnative-splash 
+
+**NOTE:** *If you ever need to uninstall **rnative-splash**, run `react-native unlink rnative-splash` to **unlink** it.*
+
+
+If using **cocoapods** in the `ios/` directory run
+
+    pod install
+    
+    
 ## Installation (iOS)
 
 ## Installation (Android)
