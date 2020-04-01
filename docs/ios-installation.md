@@ -1,4 +1,4 @@
-## Getting Started ıOS
+## Getting Started Ios
 
 Install the library using either **Yarn**:
 
