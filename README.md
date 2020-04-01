@@ -23,7 +23,7 @@ If using **cocoapods** in the `ios/` directory run
 **NOTE:** *If you ever need to uninstall **rnative-splash**, run `react-native unlink rnative-splash` to **unlink** it.*
 
 
-## Installation (iOS)
+## Installation (Ios)
 
 In `AppDelegate.m`
 
@@ -39,6 +39,22 @@ return YES
 ```
 
 ## Installation (Android)
+
+in `MainActivity.java`
+
+```java
+
+...
+import com.reactnativecomponent.splashscreen.RCTSplashScreen; // import RCTSplashScreen
+...
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    RCTSplashScreen.openSplashScreen(this); // open splashscreen
+    super.onCreate(savedInstanceState);
+}
+```
+
 
 ## Usage
 
