@@ -63,8 +63,6 @@ Drag **SplashScreenResource** folder to your project if you want change image, r
 <img align="left" src="images/ios.gif" style="margin-bottom:50px" />
 
 
-Let's run again later.
-
     yarn ios
 
 it's that simple 🎉🎉🎉🎉🎉🎉🎉
