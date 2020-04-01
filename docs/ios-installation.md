@@ -46,7 +46,7 @@ The following changes are required for **xcode**.
 
 Delete your project's `LaunchScreen.xib`
 
-<img src="images/ios-1.png" />
+<img src="images/ios-1.png" width="400" />
 
 ### Step 2
 
@@ -57,5 +57,4 @@ Let's move the **SplashScreenResource** folder under the `ios/` folder.
 
 Drag **SplashScreenResource** folder to your project if you want change image, replace **splash.png** or add a image with your custom name.
 
-<img src="images/ios-2.png" />
-<img src="images/ios-3.png" />
+<img align="left" src="images/ios.gif" width="40%" />
